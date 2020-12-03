@@ -11,6 +11,7 @@ header{
 .top-wrapper{
   background-image: url(bar_image.jpeg);
   background-size: cover;
+  length: 1000px;
 }
 .top-wrapper h2{
   text-align: left;
