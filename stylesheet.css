@@ -1,18 +1,59 @@
-.top-main{
-  background-image: url(https://tblg.k-img.com/resize/640x360c/restaurant/images/Rvw/73347/73347578.jpg?token=0ae7dbd&api=v2);
-  color: white;
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+.main{
+  background-image:url(https://tblg.k-img.com/resize/640x360c/restaurant/images/Rvw/73347/73347578.jpg?token=0ae7dbd&api=v2);
   background-size:cover;
+  max-width:1366px;
+  height:768px;
+  color:#fff;
 }
 .top-main{
-  padding-bottom: 100px;
+  width:600px;
+  margin:0 auto;
+  padding-top:150px;
 }
-.btn-main{
-  color: white;
+.top-main h1{
+  border-top:3px solid;
+  border-bottom:3px solid;
+  padding:10px 0 10px 30px;
+  margin-bottom:10px;
+  font-size:48px;
 }
-.btn{
-  border-bottom: 2px solid white;
-  display: inline-block;
-  text-align: center;
-  width: 50%;
-  margin:50px 30px;
+.top-main h3{
+  float:right;
+  padding-right:36px;
+  font-size:30;
+}
+.btm-main{
+  width:600px;
+  margin:0 auto;
+  padding-top:100px;
+}
+.btm-main a{
+  color:#fff;
+  display:inline-block;
+  font-size:36px;
+  padding:40px 80px;
+}
+.menu{
+  float:right;
+}
+.contact{
+  float:right;
 }
